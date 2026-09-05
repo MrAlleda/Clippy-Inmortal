@@ -52,12 +52,14 @@ static class AnimationLibrary
     public static readonly (string Animation, string Line)[] AnnoyingTips =
     {
         ("GetAttention", "¿Sabías que podés hacer click derecho para ver más opciones?"),
-        ("Explain", "¡Parece que estás usando la computadora! ¿Necesitás ayuda?"),
+        ("GetAttention", "Oíme bien, para vos la mía."),
+        ("Explain", "Usted tiene un ligero acento, más que acento tiene punto suspensivo."),
         ("CheckingSomething", "¿Ya tomaste agua hoy?"),
         ("Thinking", "Recordá guardar tu trabajo seguido."),
         ("Congratulate", "¡Vas muy bien! Seguí así."),
         ("Wave", "¡Hola de nuevo! Solo pasaba a saludar."),
         ("GetTechy", "¿Sabías que me podés cambiar de tamaño desde el menú?"),
+        ("Thinking", "¿Vos sos Carlos? El de los calzoncillos cortos y los huevos largos."),
     };
 
     public static readonly string[] SurpriseLines =

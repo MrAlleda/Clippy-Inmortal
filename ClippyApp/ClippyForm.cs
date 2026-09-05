@@ -184,7 +184,7 @@ public class ClippyForm : Form
     private void ScheduleIdle()
     {
         _idleTimer.Stop();
-        _idleTimer.Interval = 8000 + _rng.Next(14000);
+        _idleTimer.Interval = 4000 + _rng.Next(11001);
         _idleTimer.Start();
     }
 
