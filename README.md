@@ -57,9 +57,9 @@ Así reacciona cuando copiás un link (mismo diseño y colores que el globo real
 
 ## 💾 Instalación
 
-1. Descargá `Clippy.exe` de la carpeta [`ClippyApp/publish`](ClippyApp/publish) (o compilalo vos mismo, ver abajo).
-2. Doble click.
-3. Listo — ahí está, en la esquina de tu escritorio.
+1. Descargá `Clippy.zip` desde la [última versión (Releases)](https://github.com/MrAlleda/Clippy-Inmortal/releases/latest).
+2. Descomprimilo — todo el contenido tiene que quedar junto en la misma carpeta.
+3. Ejecutá `Clippy.exe`.
 
 No necesitás tener .NET instalado: el ejecutable es autocontenido.
 
