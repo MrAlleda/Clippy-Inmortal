@@ -85,6 +85,8 @@ static class SettingsStore
         {
             ClipboardReactionsEnabled = GetBool(dict, "clipboardReactions", true),
             AnnoyingModeEnabled = GetBool(dict, "annoyingMode", false),
+            AnnoyingIntervalMinMinutes = GetInt(dict, "annoyingMin", 3),
+            AnnoyingIntervalMaxMinutes = GetInt(dict, "annoyingMax", 7),
             PauseReminderEnabled = GetBool(dict, "pauseReminder", false),
             SoundEnabled = GetBool(dict, "soundEnabled", true),
             StartWithWindows = GetBool(dict, "startWithWindows", false),
@@ -101,6 +103,8 @@ static class SettingsStore
         var dict = Load();
         dict["clipboardReactions"] = s.ClipboardReactionsEnabled.ToString();
         dict["annoyingMode"] = s.AnnoyingModeEnabled.ToString();
+        dict["annoyingMin"] = s.AnnoyingIntervalMinMinutes.ToString();
+        dict["annoyingMax"] = s.AnnoyingIntervalMaxMinutes.ToString();
         dict["pauseReminder"] = s.PauseReminderEnabled.ToString();
         dict["soundEnabled"] = s.SoundEnabled.ToString();
         dict["startWithWindows"] = s.StartWithWindows.ToString();
@@ -114,4 +118,7 @@ static class SettingsStore
 
     private static bool GetBool(Dictionary<string, string> dict, string key, bool fallback) =>
         dict.TryGetValue(key, out var v) && bool.TryParse(v, out var b) ? b : fallback;
+
+    private static int GetInt(Dictionary<string, string> dict, string key, int fallback) =>
+        dict.TryGetValue(key, out var v) && int.TryParse(v, out var i) ? i : fallback;
 }

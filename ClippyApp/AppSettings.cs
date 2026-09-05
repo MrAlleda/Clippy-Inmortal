@@ -4,6 +4,8 @@ class AppSettings
 {
     public bool ClipboardReactionsEnabled = true;
     public bool AnnoyingModeEnabled;
+    public int AnnoyingIntervalMinMinutes = 3;
+    public int AnnoyingIntervalMaxMinutes = 7;
     public bool PauseReminderEnabled;
     public bool SoundEnabled = true;
     public bool StartWithWindows;

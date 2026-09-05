@@ -295,7 +295,12 @@ public class ClippyForm : Form
             ScheduleReminder(dlg.Minutes, dlg.Message);
     }
 
-    private int RandomAnnoyingInterval() => (3 + _rng.Next(5)) * 60 * 1000;
+    private int RandomAnnoyingInterval()
+    {
+        int min = Math.Max(1, _appSettings.AnnoyingIntervalMinMinutes);
+        int max = Math.Max(min, _appSettings.AnnoyingIntervalMaxMinutes);
+        return (min + _rng.Next(max - min + 1)) * 60 * 1000;
+    }
 
     private void Surprise()
     {

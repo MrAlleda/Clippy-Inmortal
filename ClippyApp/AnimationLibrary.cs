@@ -32,7 +32,7 @@ static class AnimationLibrary
         ["Searching"] = new[] { "Buscando la mejor respuesta para vos..." },
         ["CheckingSomething"] = new[] { "Estoy revisando eso ahora mismo." },
         ["Congratulate"] = new[] { "¡Felicitaciones! Lo hiciste muy bien." },
-        ["GetAttention"] = new[] { "¡Che! ¿Tenés un segundo?" },
+        ["GetAttention"] = new[] { "¿Tenés un segundo?" },
         ["GetArtsy"] = new[] { "¡Hora de ponerse creativos! 🎨" },
         ["GetTechy"] = new[] { "Vamos a ponernos técnicos por un momento." },
         ["GetWizardy"] = new[] { "✨ Un poco de magia nunca está de más. ✨" },
@@ -67,9 +67,12 @@ static class AnimationLibrary
         "¡Bip bop! Soy un clip parlante.",
         "Dato random: los clips se inventaron en 1899.",
         "¡Aquí ando, dando vueltas!",
-        "¡Ta-tán! Nada en particular, solo quería saludar.",
-        "Si me ves seguido es porque te caigo bien.",
-        "¿Sabías que también reacciono si copiás algo?",
+        "¿Campana te suena?",
+        "Ponete de perfil, hijo de puta.",
+        "Si no sos puto, te faltan 10 minutos.",
+        "Toma por curioso 8====D.",
+        "Ojo por ojo, muela por culo.",
+        "Sos ligero eeh!"
     };
 
     public static string RandomLine(string animation, Random rng)
