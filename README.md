@@ -43,9 +43,6 @@ Así reacciona cuando copiás un link (mismo diseño y colores que el globo real
 
 ## ✨ Funciones
 
-- 🪟 **Ventana transparente de verdad** — flota sobre el escritorio con transparencia real por píxel (nada de trucos de color clave), siempre encima de todo.
-- 🖱️ **Arrastrable y redimensionable** — llevalo a cualquier parte de la pantalla, elegí entre 4 tamaños.
-- 🎬 **41 animaciones originales** — las mismas de Office 97-2003, reproducidas cuadro por cuadro con su timing real.
 - 💬 **Reacciona al portapapeles** — copiá texto o una captura de pantalla (`Win+Shift+S`) y comenta algo al respecto.
 - ⏰ **Recordatorios de verdad** — desde un aviso rápido "en 10 minutos" hasta recordatorios con fecha, hora, categoría y repetición (persistidos en disco, con buscador y edición).
 - 🎂 **Cumpleaños** — el tuyo, o los de otras personas vía un asistente de 3 pasos — avisa el día, o el día antes si querés.
